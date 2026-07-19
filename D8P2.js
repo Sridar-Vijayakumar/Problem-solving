@@ -31,3 +31,5 @@ var nextPermutation = function(nums) {
         right--;
     }
 };
+
+

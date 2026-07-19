@@ -10,7 +10,7 @@ var divide = function(dividend, divisor) {
     if (dividend === INT_MIN && divisor === -1) {
         return INT_MAX;
     }
-
+     
     const negative = (dividend < 0) !== (divisor < 0);
 
     let dvd = Math.abs(dividend);
